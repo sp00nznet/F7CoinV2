@@ -2747,8 +2747,6 @@ bool LoadBlockIndex()
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
         hashGenesisBlock = uint256("0x6887edfe134e12e5c32b0ca6034170aafc24a8dc96f876b31d2c40a009c5a603");
-		block.nNonce   = 386056820;
-		block.nTime    = 1394654045;
     }
 
     //
