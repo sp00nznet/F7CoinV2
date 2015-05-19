@@ -1,4 +1,4 @@
-#define BOOST_TEST_MODULE Litecoin Test Suite
+#define BOOST_TEST_MODULE f7coin Test Suite
 #include <boost/test/unit_test.hpp>
 #include <boost/filesystem.hpp>
 
