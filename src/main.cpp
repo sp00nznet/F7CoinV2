@@ -2842,7 +2842,7 @@ if (true && block.GetHash() != hashGenesisBlock) // set it to false!
 
         block.print();
         assert(block.GetHash() == hashGenesisBlock);
-
+	}
         // Start new block file
         unsigned int nFile;
         unsigned int nBlockPos;
