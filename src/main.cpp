@@ -2746,7 +2746,10 @@ bool LoadBlockIndex()
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0xf5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f");
+        hashGenesisBlock = uint256("0x6887edfe134e12e5c32b0ca6034170aafc24a8dc96f876b31d2c40a009c5a603");
+		block.nNonce   = 386056820;
+		block.nTime    = 1394654045;
+		pszTimestamp = "12/03/2014 F7Coin started.";
     }
 
     //
