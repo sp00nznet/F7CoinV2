@@ -1095,8 +1095,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 1 * 60; // 
-static const int64 nTargetSpacing = .5 * 60; // 
+static const int64 nTargetTimespan = 1 * 60; // F7Coin: 1 minute
+static const int64 nTargetSpacing = .5 * 60; // F7Coin: 30 seconds
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -2810,16 +2810,20 @@ bool InitBlockIndex() {
         block.print();
         assert(hash == hashGenesisBlock);
 
-        block.print();
-        assert(block.GetHash() == hashGenesisBlock);
-
         // Start new block file
-        unsigned int nFile;
-        unsigned int nBlockPos;
-        if (!block.WriteToDisk(nFile, nBlockPos))
-            return error("LoadBlockIndex() : writing genesis block to disk failed");
-        if (!block.AddToBlockIndex(nFile, nBlockPos))
-            return error("LoadBlockIndex() : genesis block not accepted");
+        try {
+            unsigned int nBlockSize = ::GetSerializeSize(block, SER_DISK, CLIENT_VERSION);
+            CDiskBlockPos blockPos;
+            CValidationState state;
+            if (!FindBlockPos(state, blockPos, nBlockSize+8, 0, block.nTime))
+                return error("LoadBlockIndex() : FindBlockPos failed");
+            if (!block.WriteToDisk(blockPos))
+                return error("LoadBlockIndex() : writing genesis block to disk failed");
+            if (!block.AddToBlockIndex(state, blockPos))
+                return error("LoadBlockIndex() : genesis block not accepted");
+        } catch(std::runtime_error &e) {
+            return error("LoadBlockIndex() : failed to initialize block database: %s", e.what());
+        }
     }
 
     return true;
