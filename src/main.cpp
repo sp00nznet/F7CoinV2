@@ -2793,12 +2793,12 @@ bool InitBlockIndex() {
         block.nVersion = 1;
         block.nTime    = 1394654045;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 0;
+        block.nNonce   = 386056820;
 
         if (fTestNet)
         {
             block.nTime    = 1394654045;
-            block.nNonce   = 0;
+            block.nNonce   = 385270584;
         }
 
         //// debug print
