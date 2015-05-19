@@ -2842,8 +2842,14 @@ if (true && block.GetHash() != hashGenesisBlock) // set it to false!
 
         block.print();
         assert(block.GetHash() == hashGenesisBlock);
-	}
-     
+
+        // Start new block file
+        unsigned int nFile;
+        unsigned int nBlockPos;
+        if (!block.WriteToDisk(nFile, nBlockPos))
+            return error("LoadBlockIndex() : writing genesis block to disk failed");
+        if (!block.AddToBlockIndex(nFile, nBlockPos))
+            return error("LoadBlockIndex() : genesis block not accepted");
     }
 
     return true;
