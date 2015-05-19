@@ -2779,7 +2779,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "NY Times 05/Oct/2011 Steve Jobs, Apple’s Visionary, Dies at 56";
+        const char* pszTimestamp = "NY Times 05/Oct/2011 Steve Jobs, Apple???s Visionary, Dies at 56";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -4575,7 +4575,7 @@ void static LitecoinMiner(CWallet *pwallet)
 {
     printf("LitecoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("litecoin-miner");
+    RenameThread("f7coin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);

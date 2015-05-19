@@ -1,7 +1,7 @@
 Litecoin integration/staging tree
 ================================
 
-http://www.litecoin.org
+http://www.f7coin.org
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
@@ -19,7 +19,7 @@ The rest is the same as Bitcoin.
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Litecoin client sofware, see http://www.litecoin.org.
+the Litecoin client sofware, see http://www.f7coin.org.
 
 License
 -------
@@ -45,7 +45,7 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/litecoin-project/litecoin/tags) are created
+completely stable. [Tags](https://github.com/f7coin-project/f7coin/tags) are created
 regularly to indicate new official, stable release versions of Litecoin.
 
 Testing
@@ -69,5 +69,5 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
-    ./litecoin-qt_test
+    ./f7coin-qt_test
 

@@ -25,12 +25,12 @@ You need the Qt4 run-time libraries to run Litecoin-Qt. On Debian or Ubuntu:
 
 Unpack the files into a directory and run:
 
-- bin/32/litecoin-qt (GUI, 32-bit)
-- bin/32/litecoind (headless, 32-bit)
-- bin/64/litecoin-qt (GUI, 64-bit)
-- bin/64/litecoind (headless, 64-bit)
+- bin/32/f7coin-qt (GUI, 32-bit)
+- bin/32/f7coind (headless, 32-bit)
+- bin/64/f7coin-qt (GUI, 64-bit)
+- bin/64/f7coind (headless, 64-bit)
 
-See the documentation at the [Litecoin Wiki](http://litecoin.info)
+See the documentation at the [Litecoin Wiki](http://f7coin.info)
 for help and more information.
 
 
