@@ -35,7 +35,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x");
+uint256 hashGenesisBlock("0x9dfd96631e970272aa65e25652fa650bda325ac88c76b7d669a0ce09960ef450");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // f7coin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2779,7 +2779,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "NY Times 05/Oct/2011 Steve Jobs, Apple???s Visionary, Dies at 56";
+        const char* pszTimestamp = "12/03/2014 F7Coin started.";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2793,12 +2793,12 @@ bool InitBlockIndex() {
         block.nVersion = 1;
         block.nTime    = 1394654045;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 386056820;
+        block.nNonce   = 386828934;
 
         if (fTestNet)
         {
             block.nTime    = 1394654045;
-            block.nNonce   = 385270584;
+            block.nNonce   = 386828934;
         }
 
         //// debug print
