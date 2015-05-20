@@ -42,5 +42,5 @@ To build F7Coin-QT Wallet:
 
     qmake -o Makefile bitcoin-qt.pro
     make -f Makefile
-    ./f7coin-qt_test
+    ./f7coin-qt
 
