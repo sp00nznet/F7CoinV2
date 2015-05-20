@@ -1,16 +1,16 @@
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.0">
-<defauF7Codec>UTF-8</defauF7Codec>
+<defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About f7coin</source>
-        <translation>f7coin hakkında</translation>
+        <source>About Litecoin</source>
+        <translation>Litecoin hakkında</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;f7coin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;f7coin&lt;/b&gt; sürüm</translation>
+        <source>&lt;b&gt;Litecoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Litecoin&lt;/b&gt; sürüm</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The f7coin developers</source>
-        <translation>f7coin geliştiricileri</translation>
+        <source>The Litecoin developers</source>
+        <translation>Litecoin geliştiricileri</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your f7coin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödeme almak için f7coin adresleridir. Kimin ödeme yaptığını izleyebilmek için her ödeme yollaması gereken kişiye değişik bir adres verebilirsiniz.</translation>
+        <source>These are your Litecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödeme almak için Litecoin adresleridir. Kimin ödeme yaptığını izleyebilmek için her ödeme yollaması gereken kişiye değişik bir adres verebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a f7coin address</source>
-        <translation>Bir f7coin adresinin sizin olduğunu ispatlamak için mesaj imzalayın</translation>
+        <source>Sign a message to prove you own a Litecoin address</source>
+        <translation>Bir Litecoin adresinin sizin olduğunu ispatlamak için mesaj imzalayın</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified f7coin address</source>
-        <translation>Belirtilen f7coin adresi ile imzalandığını doğrulamak için bir mesajı kontrol et</translation>
+        <source>Verify a message to ensure it was signed with a specified Litecoin address</source>
+        <translation>Belirtilen Litecoin adresi ile imzalandığını doğrulamak için bir mesajı kontrol et</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your f7coin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödeme yapmak için kullanacağınız f7coin adreslerinizdir. f7coin yollamadan önce meblağı ve alıcı adresini daima kontrol ediniz.</translation>
+        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödeme yapmak için kullanacağınız Litecoin adreslerinizdir. Litecoin yollamadan önce meblağı ve alıcı adresini daima kontrol ediniz.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,7 +248,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR f7coinS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
         <translation>Uyarı: Eğer cüzdanınızı şifrelerseniz ve parolanızı kaybederseniz, &lt;b&gt;TÜM BİTCOİNLERİNİZİ KAYBEDERSİNİZ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -275,8 +275,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>f7coin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your f7coins from being stolen by malware infecting your computer.</source>
-        <translation>Şifreleme işlemini tamamlamak için f7coin şimdi kapanacaktır. Cüzdanınızı şifrelemenin, f7coinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <translation>Şifreleme işlemini tamamlamak için Litecoin şimdi kapanacaktır. Cüzdanınızı şifrelemenin, Litecoinlerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about f7coin</source>
-        <translation>f7coin hakkında bilgi göster</translation>
+        <source>Show information about Litecoin</source>
+        <translation>Litecoin hakkında bilgi göster</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a f7coin address</source>
-        <translation>Bir f7coin adresine f7coin yolla</translation>
+        <source>Send coins to a Litecoin address</source>
+        <translation>Bir Litecoin adresine Litecoin yolla</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for f7coin</source>
-        <translation>f7coin seçeneklerinin yapılandırmasını değiştir</translation>
+        <source>Modify configuration options for Litecoin</source>
+        <translation>Litecoin seçeneklerinin yapılandırmasını değiştir</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>f7coin</source>
-        <translation>f7coin</translation>
+        <source>Litecoin</source>
+        <translation>Litecoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About f7coin</source>
-        <translation>f7coin &amp;Hakkında</translation>
+        <source>&amp;About Litecoin</source>
+        <translation>Litecoin &amp;Hakkında</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your f7coin addresses to prove you own them</source>
-        <translation>Mesajları adreslerin size ait olduğunu ispatlamak için f7coin adresleri ile imzala</translation>
+        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <translation>Mesajları adreslerin size ait olduğunu ispatlamak için Litecoin adresleri ile imzala</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified f7coin addresses</source>
-        <translation>Belirtilen f7coin adresleri ile imzalandıklarından emin olmak için mesajları kontrol et</translation>
+        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+        <translation>Belirtilen Litecoin adresleri ile imzalandıklarından emin olmak için mesajları kontrol et</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>f7coin client</source>
-        <translation>f7coin istemcisi</translation>
+        <source>Litecoin client</source>
+        <translation>Litecoin istemcisi</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to f7coin network</source>
-        <translation><numerusform>f7coin şebekesine %n faal bağlantı</numerusform><numerusform>f7coin şebekesine %n faal bağlantı</numerusform></translation>
+        <source>%n active connection(s) to Litecoin network</source>
+        <translation><numerusform>Litecoin şebekesine %n faal bağlantı</numerusform><numerusform>Litecoin şebekesine %n faal bağlantı</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adres: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid f7coin address or malformed URI parameters.</source>
-        <translation>URI okunamadı! Sebebi geçersiz bir f7coin adresi veya hatalı URI parametreleri olabilir.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+        <translation>URI okunamadı! Sebebi geçersiz bir Litecoin adresi veya hatalı URI parametreleri olabilir.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. f7coin can no longer continue safely and will quit.</source>
-        <translation>Ciddi bir hata oluştu. f7coin artık güvenli bir şekilde işlemeye devam edemez ve kapanacaktır.</translation>
+        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
+        <translation>Ciddi bir hata oluştu. Litecoin artık güvenli bir şekilde işlemeye devam edemez ve kapanacaktır.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adres: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid f7coin address.</source>
-        <translation>Girilen &quot;%1&quot; adresi geçerli bir f7coin adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
+        <translation>Girilen &quot;%1&quot; adresi geçerli bir Litecoin adresi değildir.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adres: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>f7coin-Qt</source>
-        <translation>f7coin-Qt</translation>
+        <source>Litecoin-Qt</source>
+        <translation>Litecoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adres: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start f7coin after logging in to the system.</source>
-        <translation>Sistemde oturum açıldığında f7coin&apos;i otomatik olarak başlat.</translation>
+        <source>Automatically start Litecoin after logging in to the system.</source>
+        <translation>Sistemde oturum açıldığında Litecoin&apos;i otomatik olarak başlat.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start f7coin on system login</source>
-        <translation>f7coin&apos;i sistem oturumuyla &amp;başlat</translation>
+        <source>&amp;Start Litecoin on system login</source>
+        <translation>Litecoin&apos;i sistem oturumuyla &amp;başlat</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the f7coin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönlendiricide f7coin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
+        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönlendiricide Litecoin istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the f7coin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>f7coin şebekesine SOCKS vekil sunucusu vasıtasıyla bağlan (mesela Tor ile bağlanıldığında).</translation>
+        <source>Connect to the Litecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Litecoin şebekesine SOCKS vekil sunucusu vasıtasıyla bağlan (mesela Tor ile bağlanıldığında).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adres: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting f7coin.</source>
-        <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar f7coin tekrar başlatıldığında etkinleşecektir.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
+        <translation>Kullanıcı arayüzünün dili burada belirtilebilir. Bu ayar Litecoin tekrar başlatıldığında etkinleşecektir.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -940,12 +940,12 @@ Adres: %4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>f7coin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
+        <translation>Litecoin gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show f7coin addresses in the transaction list or not.</source>
-        <translation>Muamele listesinde f7coin adreslerinin gösterilip gösterilmeyeceklerini belirler.</translation>
+        <source>Whether to show Litecoin addresses in the transaction list or not.</source>
+        <translation>Muamele listesinde Litecoin adreslerinin gösterilip gösterilmeyeceklerini belirler.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adres: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting f7coin.</source>
-        <translation>Bu ayarlar f7coin tekrar başlatıldığında etkinleşecektir.</translation>
+        <source>This setting will take effect after restarting Litecoin.</source>
+        <translation>Bu ayarlar Litecoin tekrar başlatıldığında etkinleşecektir.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,7 +1015,7 @@ Adres: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the f7coin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Görüntülenen veriler zaman aşımına uğramış olabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak şebeke ile eşleşir ancak bu işlem henüz tamamlanmamıştır.</translation>
     </message>
     <message>
@@ -1069,8 +1069,8 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start f7coin: click-to-pay handler</source>
-        <translation>f7coin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
+        <source>Cannot start litecoin: click-to-pay handler</source>
+        <translation>Litecoin başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the f7coin-Qt help message to get a list with possible f7coin command-line options.</source>
-        <translation>Mevcut f7coin komut satırı seçeneklerinin listesini içeren f7coin-Qt yardımını göster.</translation>
+        <source>Show the Litecoin-Qt help message to get a list with possible Litecoin command-line options.</source>
+        <translation>Mevcut Litecoin komut satırı seçeneklerinin listesini içeren Litecoin-Qt yardımını göster.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adres: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>f7coin - Debug window</source>
-        <translation>f7coin - Hata ayıklama penceresi</translation>
+        <source>Litecoin - Debug window</source>
+        <translation>Litecoin - Hata ayıklama penceresi</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>f7coin Core</source>
-        <translation>f7coin Çekirdeği</translation>
+        <source>Litecoin Core</source>
+        <translation>Litecoin Çekirdeği</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the f7coin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Güncel veri klasöründen f7coin hata ayıklama kütük dosyasını açar. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
+        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Güncel veri klasöründen Litecoin hata ayıklama kütük dosyasını açar. Büyük kütük dosyaları için bu birkaç saniye alabilir.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the f7coin RPC console.</source>
-        <translation>f7coin RPC konsoluna hoş geldiniz.</translation>
+        <source>Welcome to the Litecoin RPC console.</source>
+        <translation>Litecoin RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1290,7 +1290,7 @@ Adres: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>f7coin yolla</translation>
+        <translation>Litecoin yolla</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1448,8 +1448,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a f7coin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>f7coin adresi giriniz (mesela Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Litecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Litecoin adresi giriniz (mesela Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this f7coin address</source>
-        <translation>Bu f7coin adresinin sizin olduğunu ispatlamak için mesajı imzalayın</translation>
+        <source>Sign the message to prove you own this Litecoin address</source>
+        <translation>Bu Litecoin adresinin sizin olduğunu ispatlamak için mesajı imzalayın</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Adres: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified f7coin address</source>
-        <translation>Belirtilen f7coin adresi ile imzalandığını doğrulamak için mesajı kontrol et</translation>
+        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+        <translation>Belirtilen Litecoin adresi ile imzalandığını doğrulamak için mesajı kontrol et</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a f7coin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>f7coin adresi giriniz (mesela Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Litecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Litecoin adresi giriniz (mesela Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter f7coin signature</source>
-        <translation>f7coin imzası gir</translation>
+        <source>Enter Litecoin signature</source>
+        <translation>Litecoin imzası gir</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adres: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The f7coin developers</source>
-        <translation>f7coin geliştiricileri</translation>
+        <source>The Litecoin developers</source>
+        <translation>Litecoin geliştiricileri</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1784,7 +1784,7 @@ Adres: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Oluşturulan f7coin&apos;lerin harcanabilmelerinden önce 120 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu &quot;kabul edilmedi&quot; olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
+        <translation>Oluşturulan Litecoin&apos;lerin harcanabilmelerinden önce 120 blok beklemeleri gerekmektedir. Bu blok, oluşturduğunuzda blok zincirine eklenmesi için ağda yayınlandı. Zincire eklenmesi başarısız olursa, durumu &quot;kabul edilmedi&quot; olarak değiştirilecek ve harcanamayacaktır. Bu, bazen başka bir düğüm sizden birkaç saniye önce ya da sonra blok oluşturursa meydana gelebilir.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2137,7 +2137,7 @@ Adres: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>f7coin yolla</translation>
+        <translation>Litecoin yolla</translation>
     </message>
 </context>
 <context>
@@ -2187,8 +2187,8 @@ Adres: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>f7coin version</source>
-        <translation>f7coin sürümü</translation>
+        <source>Litecoin version</source>
+        <translation>Litecoin sürümü</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adres: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or f7coind</source>
-        <translation>-server ya da f7coind&apos;ye komut gönder</translation>
+        <source>Send command to -server or litecoind</source>
+        <translation>-server ya da litecoind&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adres: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: f7coin.conf)</source>
-        <translation>Yapılandırma dosyası belirt (varsayılan: f7coin.conf)</translation>
+        <source>Specify configuration file (default: litecoin.conf)</source>
+        <translation>Yapılandırma dosyası belirt (varsayılan: litecoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: f7coind.pid)</source>
-        <translation>Pid dosyası belirt (varsayılan: f7coind.pid)</translation>
+        <source>Specify pid file (default: litecoind.pid)</source>
+        <translation>Pid dosyası belirt (varsayılan: litecoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,24 +2300,24 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=f7coinrpc
+rpcuser=litecoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;f7coin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, şu yapılandırma dosyasında rpc parolası belirtmeniz gerekir:
 %s
 Aşağıdaki rastgele oluşturulan parolayı kullanmanız tavsiye edilir:
-rpcuser=f7coinrpc
+rpcuser=litecoinrpc
 rpcpassword=%s
 (bu parolayı hatırlamanız gerekli değildir)
 Kullanıcı ismi ile parolanın FARKLI olmaları gerekir.
 Dosya mevcut değilse, sadece sahibi için okumayla sınırlı izin ile oluşturunuz.
 Sorunlar hakkında bildiri almak için alertnotify unsurunu ayarlamanız tavsiye edilir;
-mesela: alertnotify=echo %%s | mail -s &quot;f7coin Alert&quot; admin@foo.com
+mesela: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;f7coin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. f7coin is probably already running.</source>
-        <translation>%s veri dizininde kilit elde edilemedi. f7coin muhtemelen hâlihazırda çalışmaktadır.</translation>
+        <source>Cannot obtain a lock on data directory %s. Litecoin is probably already running.</source>
+        <translation>%s veri dizininde kilit elde edilemedi. Litecoin muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2363,7 +2363,7 @@ mesela: alertnotify=echo %%s | mail -s &quot;f7coin Alert&quot; admin@foo.com
     <message>
         <location line="+6"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - f7coin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
+        <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - litecoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2377,8 +2377,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;f7coin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong f7coin will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olup olmadığını kontrol ediniz! Saatiniz doğru değilse f7coin gerektiği gibi çalışamaz.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Litecoin will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olup olmadığını kontrol ediniz! Saatiniz doğru değilse Litecoin gerektiği gibi çalışamaz.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2518,7 +2518,7 @@ mesela: alertnotify=echo %%s | mail -s &quot;f7coin Alert&quot; admin@foo.com
     <message>
         <location line="+1"/>
         <source>Generate coins (default: 0)</source>
-        <translation>f7coin oluştur (varsayılan: 0)</translation>
+        <translation>Litecoin oluştur (varsayılan: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2627,8 +2627,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;f7coin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the f7coin Wiki for SSL setup instructions)</source>
-        <translation> SSL seçenekleri: (SSL kurulum bilgisi için f7coin vikisine bakınız)</translation>
+        <source>SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
+        <translation> SSL seçenekleri: (SSL kurulum bilgisi için Litecoin vikisine bakınız)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ mesela: alertnotify=echo %%s | mail -s &quot;f7coin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of f7coin</source>
-        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: cüzdanın daha yeni bir f7coin sürümüne ihtiyacı var</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin</source>
+        <translation>wallet.dat dosyasının yüklenmesinde hata oluştu: cüzdanın daha yeni bir Litecoin sürümüne ihtiyacı var</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart f7coin to complete</source>
-        <translation>Cüzdanın tekrar yazılması gerekiyordu: işlemi tamamlamak için f7coin&apos;i yeniden başlatınız</translation>
+        <source>Wallet needed to be rewritten: restart Litecoin to complete</source>
+        <translation>Cüzdanın tekrar yazılması gerekiyordu: işlemi tamamlamak için Litecoin&apos;i yeniden başlatınız</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;f7coin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. f7coin is probably already running.</source>
-        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. f7coin muhtemelen hâlihazırda çalışmaktadır.</translation>
+        <source>Unable to bind to %s on this computer. Litecoin is probably already running.</source>
+        <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. Litecoin muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
         <location line="+64"/>
