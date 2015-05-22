@@ -1,7 +1,7 @@
 # Copyright (c) 2009-2010 Satoshi Nakamoto
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
+VERBOSE=1
 DEPSDIR:=/usr/i686-w64-mingw32
 
 CC := i686-w64-mingw32-gcc
@@ -10,22 +10,28 @@ CXX := i686-w64-mingw32-g++
 USE_UPNP:=0
 USE_IPV6:=1
 
+BOOST_SUFFIX? = mgw48-mt-s-1_57
+BOOST_LIB_SUFFIX=-mgw48-mt-s-1_57
+
+
 INCLUDEPATHS= \
- -I"$(CURDIR)" \
- -I"$(CURDIR)"/obj \
- -I"$(DEPSDIR)/include" \
- -I"$(DEPSDIR)"
+ -I"C:\deps\boost_1_57_0" \
+ -I"C:\deps\db-4.8.30.NC\build_unix" \
+ -I"C:\deps\openssl-1.0.1l\include" \
+ -I"C:\deps" 
 
 LIBPATHS= \
- -L"$(DEPSDIR)/lib"
+ -L"C:\deps\boost_1_57_0\stage\lib" \
+ -L"C:\deps\db-4.8.30.NC\build_unix" \
+ -L"C:\deps\openssl-1.0.1l" \
+ -L"C:\deps\miniupnpc" 
 
 LIBS= \
   $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a \
- -l boost_system-mt-s \
- -l boost_filesystem-mt-s \
- -l boost_program_options-mt-s \
- -l boost_thread_win32-mt-s \
- -l boost_chrono-mt-s \
+ -l boost_system-mgw49-mt-s-1_57 \
+ -l boost_filesystem-mgw49-mt-s-1_57 \
+ -l boost_program_options-mgw49-mt-s-1_57 \
+ -l boost_thread-mgw49-mt-s-1_57 \
  -l db_cxx \
  -l ssl \
  -l crypto
