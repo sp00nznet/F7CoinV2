@@ -20,6 +20,7 @@ CONFIG += static
 #    BOOST_INCLUDE_PATH, BOOST_LIB_PATH, BDB_INCLUDE_PATH,
 #    BDB_LIB_PATH, OPENSSL_INCLUDE_PATH and OPENSSL_LIB_PATH respectively
 
+<<<<<<< HEAD
 #Uncomment the list below for Windows builds
 #BOOST_LIB_SUFFIX=-mgw48-mt-s-1_57
 #BOOST_INCLUDE_PATH=C:/deps/boost_1_57_0
@@ -33,6 +34,8 @@ CONFIG += static
 #QRENCODE_INCLUDE_PATH=C:/deps/qrencode-3.4.4
 #QRENCODE_LIB_PATH=C:/deps/qrencode-3.4.4/.libs
 
+=======
+>>>>>>> origin/master
 OBJECTS_DIR = build
 MOC_DIR = build
 UI_DIR = build
