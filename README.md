@@ -33,7 +33,7 @@ Testing is being done on the fly. If you discover any issues please let me know.
 
 Network
 -------
-Add "addnode=199.175.55.243" to your f7coin.conf to connect to the master server.
+Add "addnode=74.221.212.139" to your f7coin.conf to connect to the master server.
 
 
 Building
