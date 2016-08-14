@@ -35,7 +35,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0xb78ac0d891f0190e50e63c708a61e56c9a3a7989bb77472884f9759abf0348e4");
+uint256 hashGenesisBlock("0x516d0f270f21ade838ffe7ecce1c07c666fed1e6e18f3dc0e492024cb3001ec6");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Litecoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2746,7 +2746,7 @@ bool LoadBlockIndex()
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0xb78ac0d891f0190e50e63c708a61e56c9a3a7989bb77472884f9759abf0348e4");
+        hashGenesisBlock = uint256("0x516d0f270f21ade838ffe7ecce1c07c666fed1e6e18f3dc0e492024cb3001ec6");
     }
 
     //
@@ -2779,7 +2779,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "5/18/15 @POTUS was created today.";
+        const char* pszTimestamp = "8/14/16 F7Coin Relaunch";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2791,9 +2791,9 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1432014791;
+        block.nTime    = 1471157505;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 390214124;
+        block.nNonce   = 165966;
 
         if (fTestNet)
         {
@@ -2806,7 +2806,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x5036880afd9a4faaca430590ecfc444018ab9b327ac244d1a6a203d889150ed9"));
+        assert(block.hashMerkleRoot == uint256("0xf5ee6fd141c44d22badc75f13929d7ad4a1ffcde22582b89e31b46190d76e807"));
         block.print();
         assert(hash == hashGenesisBlock);
 
